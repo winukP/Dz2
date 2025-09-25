@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{39DD6A64-DA81-4AD8-8624-55C6B42131CD}</ProjectGuid>
+    <ProjectGuid>{FA40487A-8CBB-4FB6-A712-BBD2FD82AEA4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tumakov</RootNamespace>
-    <AssemblyName>Tumakov</AssemblyName>
+    <RootNamespace>D</RootNamespace>
+    <AssemblyName>D</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="labuda\enUm.cs" />
-    <Compile Include="labuda\Structur.cs" />
+    <Compile Include="labuda 2\structur2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
